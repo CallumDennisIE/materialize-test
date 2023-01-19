@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="navbar-fixed">
+        <nav>
+            <div class="nav-wrapper">
+                <a href="index.html" class="brand-logo">Finance Calculator</a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html">Graphs</a></li>
+                    <li><a href="index.html">More Info</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <main class="center-align container">
+        <div>
+            <p class="flow-text left-align">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt doloribus
+                et,
+                esse atque perferendis mollitia veniam cupiditate iure nulla? Repellendus similique itaque nesciunt
+                sequi
+                dolorum est adipisci odit quae perferendis?</p>
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="section">
+            <ul class="collapsible">
+                <li>
+                    <div class="collapsible-header"><i class="material-icons">attach_money</i>Expenses</div>
+                    <div class="collapsible-body"><span>all the necessary expenses bills, rent etc.</span></div>
+                </li>
+                <li>
+                    <div class="collapsible-header"><i class="material-icons">local_hospital</i>Emergency</div>
+                    <div class="collapsible-body"><span>broken fridge, medical expenses etc.</span></div>
+                </li>
+                <li>
+                    <div class="collapsible-header"><i class="material-icons">account_balance</i>Investment</div>
+                    <div class="collapsible-body"><span>crypto, stock, property</span></div>
+                </li>
+                <li>
+                    <div class="collapsible-header"><i class="material-icons">book</i>Learning</div>
+                    <div class="collapsible-body"><span>books, courses all this brings our value to the market higher
+                            and then we can expect higher income</span></div>
+                </li>
+                <li>
+                    <div class="collapsible-header"><i class="material-icons">weekend</i>Fun</div>
+                    <div class="collapsible-body"><span>these are the funds for guilt free fun</span></div>
+                </li>
+            </ul>
+        </div>
+        <div class="divider"></div>
+
+        <div class="section">
+            <form action="">
+                <div class="row">
+                    <form class="col s12">
+                        <div class="row">
+                            <div class="input-field col s2">
+                                <select>
+                                    <option value="" disabled selected>Bucket</option>
+                                    <option value="1">Expenses</option>
+                                    <option value="2">Emergency</option>
+                                    <option value="3">Investment</option>
+                                    <option value="3">Learning</option>
+                                    <option value="3">Fun</option>
+                                </select>
+                                <label>Materialize Select</label>
+                            </div>
+                            <div class="input-field col s5">
+                                <i class="material-icons prefix">label_outline</i>
+                                <input placeholder='"Entertainment"' id="label_name" type="text" class="validate">
+                                <label for="label_name">Label Name</label>
+                            </div>
+                            <div class="input-field col s5">
+                                <i class="material-icons prefix">euro_symbol</i>
+                                <input placeholder='"100"' id="money_value" type="number" class="validate">
+                                <label for="money_value">Value</label>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <button class="btn z-depth-2">Submit</button>
+                <button class="btn z-depth-2">Reset</button>
+            </form>
+
+        </div>
+    </main>
+
+    <footer class="page-footer">
+        <div class="footer-copyright">
+            <div class="container">
+                © 2023 Copyright Stuff
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
